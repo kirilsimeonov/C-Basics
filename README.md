@@ -1,2 +1,3 @@
 # C-Basics
-Programming Basics with C#
+Problem solving C# - Basic Concepts
+
