@@ -1,31 +1,26 @@
-﻿using System;
+﻿
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _6___Exam
+namespace scribble
 {
     class Program
     {
         static void Main(string[] args)
         {
-            int alpinist = int.Parse(Console.ReadLine());
-            int karabineri = int.Parse(Console.ReadLine());
-            int ropes = int.Parse(Console.ReadLine());
-            int pikels = int.Parse(Console.ReadLine());
+            for (char i = 'a'; i <= (char)99; i++)
+            {
+                Console.WriteLine(i);
+            }
+            char B = char.Parse(Console.ReadLine());
 
-            double karabineriPrice = 36;
-            double ropesPrice = 3.6;
-            double pikelsPrice = 19.8;
-
-            double karabineriTotal = karabineri * karabineriPrice;
-            double ropesTotal = ropes * ropesPrice;
-            double pikelsTotal = pikels * pikelsPrice;
-            double totalSumOneAlpinist = karabineriTotal + ropesTotal + pikelsTotal;
-            double totalSum = totalSumOneAlpinist * alpinist;
-            Console.WriteLine($"{totalSum*1.2:f2}");
-
+            for (char d = 'A'; d <= B; d++)
+            {
+                Console.WriteLine(d);
+            }
         }
     }
 }
